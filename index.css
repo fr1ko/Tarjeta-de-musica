@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EEF2FF;
+    background: url("pattern-background-desktop");
+   
+    
+}
+
+.cajaPrincipal {
+    margin: 70px auto;
+    border-radius: 15px;
+    display: flex;
+    width: 360px;
+    flex-direction: column;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+.cajaPrincipal img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.cajafea {
+    border-radius: 0 0 15px 15px;
+    background-color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.caja1{
+    margin: 50px 10px;
+    padding: 20px 15px;
+    /* border: 1px solid #F7F7F7; */
+    background-color: #F7F7F7;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.caja1 img {
+    width: 50px;
+    height: 50px;
+}
+
+.caja2{
+    padding-left: 20px;
+
+}
+
+.caja3{
+    color: white;
+    text-align: center;
+    background-color: #0F00FF;
+    padding: 15px;
+    margin: 10px auto;
+    /* display: flex; */
+    display: block;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px 0 #0F00FF;
+    
+}
+
+a{
+    padding-left: 20px;
+    color: #0F00FF;
+    text-decoration: none;
+}
+
+.pe0{
+    padding-top: 50px;
+    color: gray;
+    
+}
+
+.pe1{
+    color: gray;
+}
+
+.pe2{
+   text-align: center;
+   color: dimgray;
+}
+
+@media screen and (min-width: 768px) {
+    .cajaPrincipal {
+        width: 450px;
+    }
+    
+    a{
+        padding-left: 80px;
+    }
+
+    .caja1 {
+        padding: 30px;
+        justify-content: center;
+    }
+}
+h4{
+    margin-bottom: 8px;
+}
